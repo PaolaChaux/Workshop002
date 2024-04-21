@@ -1,9 +1,12 @@
-<h1 align="center"> Workshop_002etl </h1>
+<h1 align="center"> Workshop 2: ETL process using airflow </h1>
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-FINISHED-green">
    </p>
 
 ### Presented by Paola Andrea Chaux Campo, students of Autonoma de Occidente University
+
+### In the Airflow Data Engineer code challenge. I show you my knowledge about data management and visualizations with the final objective of shows all the ETL process using the two different data sources (csv and Database) and chart visualizations in Power BI. In this workshop I used the spotify dataset (csv) to be readed in python and airflow, create some transformation and load into a database, on the other hand, I used the grammys dataset to be loaded into a database, then using Airflow I readed the data from the database , perform transformations, merge with the spotify dataset and load into the database.
+
 
 ## Table of contents
 * [Description](#Description)
@@ -69,6 +72,10 @@
 * Numpy.
 * Matplotlib.pyplot.
 * Python.
+* Postgres 
+* Apache airflow
+* CSV files
+*Visualization tool: PowerBI
 
 ## Features
 #### The most important thing that can be highlighted is that there were several problems when using new tools but they were easily overcome. We were able to observe that although they are random data, they were quite logical when it came to drawing conclusions. I was able to find that in the last year of registration which would be 2022, there was only data until July, which had to be taken into account when making precise conclusions.
@@ -98,12 +105,10 @@
 
 
 ## References
-#### https://www.youtube.com/watch?v=jlvMxTn_fOU
-#### https://www.youtube.com/watch?v=ag5vK3R_h7M
-#### https://www.youtube.com/watch?v=pPhQfeSgO6o
-#### https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblJHTEN4VzV6WVI0cE9Nb2liR2tkcGptWUNUQXxBQ3Jtc0tuNmV3MEF3Z3NWNDczM0Iwb3FJc3NrTE9zUGZ6ak9SUU1ueUZLZURwWWs3Q0xVc1JacEdvemZDNGhxVWhKUlN5UnhWUzdqZEliSWJ2bGtlTkNGRmNTX3JSUEFraEdhRl9oaVZ4NEVlMWRyRnFVeVYzSQ&q=https%3A%2F%2Fgithub.com%2Flearn2excel%2FPowerBI&v=pPhQfeSgO6o
+### https://fuchsia-tin-839.notion.site/PyDrive2-442c895690304e75ab3d5c0a31ea55ac
+### https://www.youtube.com/watch?v=ZI4XjwbpEwU
+### https://console.cloud.google.com/welcome?hl
 #### https://powerbi.microsoft.com/es-mx/blog/create-power-bi-reports-in-jupyter-notebooks/
-#### https://bertia.es/incrustar-informes-de-power-bi-en-jupyter-notebook/
 #### https://pypi.org/project/powerbiclient/
 #### https://www.neoguias.com/como-conectarse-postgresql-python/#Como_conectarte_a_una_base_de_datos
 #### https://www.studocu.com/bo/document/universidad-mayor-de-san-andres/programacion-i/tarea-4python-ejercicios/33129056
