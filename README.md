@@ -3,7 +3,7 @@
    <img src="https://img.shields.io/badge/STATUS-FINISHED-green">
    </p>
 
-### Presented by Paola Andrea Chaux Campo, students of Autonoma de Occidente University
+### Presented by Paola Andrea Chaux Campo, student of Autonoma de Occidente University
 
 ### In the Airflow Data Engineer code challenge. I show you my knowledge about data management and visualizations with the final objective of shows all the ETL process using the two different data sources (csv and Database) and chart visualizations in Power BI. In this workshop I used the spotify dataset (csv) to be readed in python and airflow, create some transformation and load into a database, on the other hand, I used the grammys dataset to be loaded into a database, then using Airflow I readed the data from the database , perform transformations, merge with the spotify dataset and load into the database.
 
@@ -11,11 +11,7 @@
 ## Table of contents
 * [Description](#Description)
 
-* [Quick](#Quick)
-
 * [Objective](#Objective)
-
-* [Brief](#Brief)
 
 * [Requeriments](#Requeriments)
 
@@ -25,42 +21,17 @@
 
 * [Considerations](#Considerations)
 
-* [Conclusión](#conclusión)
-
 * [References](#References)
 
 
 ## Description
 
-#### In this repository i worked an proyect's ETL process of posibbles candidates, with a csv file with 50.000 rows.
+#### In this repository i worked an proyect's ETL process using airflow with two datasets (Spotify and Winner Grammys).
 
-#### The process with the CSV file that is read by Jupyter Notebook to transfer the data to a relational database use PostgreSQL, the data is read from the database to perform the respective EDA and also the Dashboard.
-
-## Quick data overview
-#### The CSV file is data from candidates who participated in selection processes (these data were randomly generated). 
-### We have 50.000 rows of data about candidates. The fields are:
-* First Name
-* Last Name
-* Email
-* Country
-* Application Date
-* Yoe (years of experience)
-* Seniority
-* Technology
-* Code Challenge Score
-* Technical Interview
+#### The EDA process was made by Jupyter Notebook, transfer the data to a relational database use PostgreSQL, the Airflow and also the Dashboard.
 
 ## Objective 
-#### Demonstrate my knowledge about data management and visualizations and show specific metrics in chart visualizations. Present in a report with significant conclusions.
-
-### The visualizations that I show are:
-* Hires by technology (pie chart).
-* Hires by year (horizontal bar chart).
-* Hires by seniority (bar chart).
-* Hires by country over years (USA, Brazil, Colombia, and Ecuador only)(multiline chart) .
-
-## Brief description of what was done
-#### In this challenge,I demonstrated my skills: The given csv was used, an exploratory data analysis data to determine if it needs any imputation or some type of cleaning, it was found that it was perfect to work with, The data was uploaded to a relational database management system, which I chose Postgres, the data was called for both analysis and visualization in Power BI, conclusions were generated from the study of the graphs and the analysis and the proposed challenge was finally fulfilled.
+#### Demonstrate my knowledge about data management and visualizations with the final objective of shows all the ETL process using the two different data sources. Present in a report with significant conclusions.
 
 ## Requeriments
 * Jupiter Notebook.
@@ -75,10 +46,10 @@
 * Postgres 
 * Apache airflow
 * CSV files
-*Visualization tool: PowerBI
+* Visualization tool: PowerBI
 
 ## Features
-#### The most important thing that can be highlighted is that there were several problems when using new tools but they were easily overcome. We were able to observe that although they are random data, they were quite logical when it came to drawing conclusions. I was able to find that in the last year of registration which would be 2022, there was only data until July, which had to be taken into account when making precise conclusions.
+#### The most important thing that  I can be highlighted is that there were much several problems when using new tools. We were able to observe that the data was very versatile and they lent themselves to carrying out the analysis depending on what you wanted to achieve due to the number of attributes that both had. I was able to find that in the year 2019 had several awards records and in the others only 1 per year, which had to be taken into account when making precise conclusions.
 
 ## Installation Steps
 #### 1. Clone the repository.
@@ -91,18 +62,6 @@
 
 ## Considerations
 #### In the visualization part in Power BI Client, what is done is a generalized report that we can edit by having an account in Power BI and logging in, this file is only shown to the user and the inclusion of this notebook is only as a guide so that they can create their own pre-made reports with this tool that facilitates interaction, after saving it we can continue editing from the picnicpal page and download it as a .pbix format or in pdf for greater flexibility to share it, it will be attached in the references of all sites to help you with this tool.
-
-#### To note, I made a copy of db_connection in .py file format to more easily use the functions and only make one call when using them
-
-## Conclusions
-* The average experience of the candidates is approximately 15 years, indicating a moderately high level of experience overall. Fifty percent of the candidates have between 8 and 23 years of experience, indicating a relatively even distribution with the mean. 
-
-* High demand in specific areas: Operations Development and Game Development, while Technical Writing and Social Media Community Management have fewer hires, indicating lower demand.
-
-* The demand for hire is consistent at all levels of seniority, although it decreases slightly as seniority increases. Entry levels, such as Intern, Junior and Apprentice, have the most recruitments.
-
-* There is considerable variability in hiring between countries over the years. Ecuador shows an increase in 2020, Colombia decreases in 2021, Brazil shows a decreasing trend, and the United States recovers in 2021
-
 
 ## References
 ### https://fuchsia-tin-839.notion.site/PyDrive2-442c895690304e75ab3d5c0a31ea55ac
