@@ -68,7 +68,7 @@ with DAG(
         python_callable = load,
         provide_context = True,
     )
-
-    merge_task >> load_task >> store_task
+    
     extract_csv_task >> transform_s_task >> merge_task
     extract_bd_task >> transform_g_task >> merge_task
+    merge_task >> load_task >> store_task
